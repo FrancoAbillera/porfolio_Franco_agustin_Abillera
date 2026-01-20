@@ -1,13 +1,9 @@
-body {
-    font-family: 'Inter', sans-serif !important;
-}
-
-h1{
+.titulo{
     font-family: 'Montserrat', sans-serif !important;
     color: rgb(105, 39, 190);
 }
 
-h2{
+.subtitulo{
     font-family: 'Oswald', sans-serif !important;
     color: rgb(105, 39, 190);
 }
@@ -18,12 +14,26 @@ h2{
     font-weight: 600;
     padding: 0.75rem 1.5rem;
 }
-
 .btn-outline-contacto {
     color: rgba(105, 39, 190);
     border-color: rgba(105, 39, 190);
 }
 .btn-outline-contacto:hover {
+    background-color: rgba(105, 39, 190);
+    color: #ffffff;
+}
+
+.btn-informacion {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+}
+.btn-outline-informacion {
+    color: rgba(105, 39, 190);
+    border-color: rgba(105, 39, 190);
+}
+.btn-outline-informacion:hover {
     background-color: rgba(105, 39, 190);
     color: #ffffff;
 }
@@ -35,6 +45,7 @@ h2{
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
+    font-family: 'Inter', sans-serif !important;
 }
 
 .foto{
