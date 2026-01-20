@@ -1,0 +1,71 @@
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif !important;
+    color: rgb(105, 39, 190);
+}
+
+h2{
+    font-family: 'Oswald', sans-serif !important;
+    color: rgb(105, 39, 190);
+}
+
+.btn-contacto {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-outline-contacto {
+    color: rgba(105, 39, 190);
+    border-color: rgba(105, 39, 190);
+}
+.btn-outline-contacto:hover {
+    background-color: rgba(105, 39, 190);
+    color: #ffffff;
+}
+
+.body{
+    background-image: url(Fondo_Binario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.foto{
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+@media (max-width: 576px) {
+    .foto {
+        max-width: 300px;
+        margin-left: -15px;
+        
+    }
+}
+
+.menor_img {
+    max-height: 80px;
+}
+@media (max-width: 576px) {
+    .menor_img {
+        max-height: 40px;
+        margin-right: -15px;
+    }
+}
+
+.mayor_img {
+    max-height: 80px;
+}
+@media (max-width: 576px) {
+    .mayor_img {
+        max-height: 40px;
+        margin-left: -15px;
+    }
+}
