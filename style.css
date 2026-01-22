@@ -1,3 +1,6 @@
+.navbar{
+    background-color: rgba(64, 24, 117, 0.63) !important;
+}
 .titulo{
     font-family: 'Montserrat', sans-serif !important;
     color: rgb(105, 39, 190);
@@ -8,7 +11,7 @@
     color: rgb(105, 39, 190);
 }
 
-.titulo_curriculum{
+.titulo_experienciaYestudios{
     font-family: 'Courier New', Courier, monospace !important;
     color: rgb(201, 198, 206);
 }
