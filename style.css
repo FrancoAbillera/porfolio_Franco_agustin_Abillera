@@ -8,6 +8,16 @@
     color: rgb(105, 39, 190);
 }
 
+.titulo_curriculum{
+    font-family: 'Courier New', Courier, monospace !important;
+    color: rgb(201, 198, 206);
+}
+
+.titulo_carrusel{
+    font-family:'Courier New', Courier, monospace !important;
+    color: rgb(201, 198, 206);
+}
+
 .btn-contacto {
     font-family: 'Montserrat', sans-serif !important;
     font-size: 1.25rem;
@@ -37,7 +47,10 @@
     background-color: rgba(105, 39, 190);
     color: #ffffff;
 }
-
+.boton-carrusel {
+    position: absolute; top: 50%;
+    transform: translateY(-50%); 
+    }
 .body{
     background-image: url(Fondo_Binario.png);
     background-size: cover;

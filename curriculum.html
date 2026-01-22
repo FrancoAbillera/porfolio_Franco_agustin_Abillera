@@ -28,89 +28,124 @@
     <!-- Sección de experiencia y estudios -->
     <div class="container mt-3">
         <!-- Título de la sección -->
-        <h1 class="titulo text-center text-uppercase">Experiencia & Estudios</h1>
+        <h1 class="titulo_curriculum text-center text-uppercase">Experiencia & Estudios</h1>
+        
+        </div>
 
-        <!-- Tabla de educación -->
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h3 class="titulo text-center mb-3">Educación</h3>
-                <table class="table table-dark table-striped text-center align-middle h-100">
-                    <thead>
-                        <tr>
-                            <th>Fecha</th>
-                            <th>Carrera</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>De 2025 Hasta la actualidad</td>
-                            <td>Ingenieria en Informática</td>
-                        </tr>
-                        <tr>
-                            <td>De 17/08/2025 Hasta 12/12/2025</td>
-                            <td>Programación en JavaScript</td>
-                        </tr>
-                        <tr>
-                            <td>De 17/03/2025 Hasta 18/07/2025</td>
-                            <td>Programación en Python</td>
-                        </tr>
-                        <tr>
-                            <td>De 2017 Hasta 2022</td>
-                            <td>Lengua y Literatura Inglesa</td>
-                        </tr>
-                        <tr>
-                            <td>De 2015 Hasta 2020</td>
-                            <td>Bachillerato en Economía y Administración</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <!-- Carrusel de la experiencia y estudios -->
+        <div class="row mt-5 align-items-center">
+
+            <!-- Boton lateral izquierdo SOLO visible en pantallas grandes -->
+            <div class="col-1 col-md-1 d-none d-md-block">
+                <button class="boton-carrusel btn btn-outline-secondary content-center pt-3" type="button" data-bs-target="#carousel_curriculum"data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
             </div>
-            <!-- Tabla de experiencia laboral-->
-            <div class="col-12 col-md-6">
-                <h3 class="titulo text-center mb-3">Experiencia Laboral</h3>
-                <table class="table table-dark table-striped text-center align-middle h-100">
-                    <thead>
-                        <tr>
-                            <th>Fecha</th>
-                            <th>Puesto</th>
-                            <th>Empresa</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Desde 2025 Hasta la actualidad</td>
-                            <td>Programador Freelance</td>
-                            <td>Autónomo</td>
-                        </tr>
-                        <tr>
-                            <td>Desde 15/07/2025 Hasta 26/10/2025</td>
-                            <td>Operador de Transmisión</td>
-                            <td>Correo Oficial de la República Argentina</td>
-                        </tr>
-                        <tr>
-                            <td>Desde 01/03/2025 Hasta 01/07/2025</td>
-                            <td>Barista</td>
-                            <td>Starbucks</td>
-                        </tr>
-                        <tr>
-                            <td>Desde 15/07/2023 Hasta 19/11/2023</td>
-                            <td>Operador de Transmisión</td>
-                            <td>Correo Oficial de la República Argentina</td>
-                        </tr>
-                        <tr>
-                            <td>Desde 18/05/2022 Hasta 18/05/2022</td>
-                            <td>Cencista</td>
-                            <td>Instituto Nacional de Estadísticas y Censos (INDEC)</td>
-                        </tr>
-                        <tr>
-                            <td>Desde 15/07/2021 Hasta 14/11/2021</td>
-                            <td>Operador de Transmisión</td>
-                            <td>Correo Oficial de la República Argentina</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div id="carousel_curriculum" class="carousel slide col-12 col-md-10">
+                <div class="carousel-inner">
+
+                    <!--Primer Item-->
+                    <div class="carousel-item active">
+                        <h3 class="titulo_carrusel text-center mb-4 mb-md-5">Educación</h3>
+                        <table class="table table-dark table-striped text-center align-middle h-100">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Carrera</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>De 2025 Hasta la actualidad</td>
+                                    <td>Ingenieria en Informática</td>
+                                </tr>
+                                <tr>
+                                    <td>De 17/08/2025 Hasta 12/12/2025</td>
+                                    <td>Programación en JavaScript</td>
+                                </tr>
+                                <tr>
+                                    <td>De 17/03/2025 Hasta 18/07/2025</td>
+                                    <td>Programación en Python</td>
+                                </tr>
+                                <tr>
+                                    <td>De 2017 Hasta 2022</td>
+                                    <td>Lengua y Literatura Inglesa</td>
+                                </tr>
+                                <tr>
+                                    <td>De 2015 Hasta 2020</td>
+                                    <td>Bachillerato en Economía y Administración</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!--Segundo Item-->
+                    <div class="carousel-item">
+                    <!-- Tabla de experiencia laboral-->
+                        <h3 class="titulo_carrusel text-center mb-4 mb-md-5">Experiencia Laboral</h3>
+                        <table class="table table-dark table-striped text-center align-middle h-100">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Puesto</th>
+                                    <th>Empresa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Desde 2025 Hasta la actualidad</td>
+                                    <td>Programador Freelance</td>
+                                    <td>Autónomo</td>
+                                </tr>
+                                <tr>
+                                    <td>Desde 15/07/2025 Hasta 26/10/2025</td>
+                                    <td>Operador de Transmisión</td>
+                                    <td>Correo Oficial de la República Argentina</td>
+                                </tr>
+                                <tr>
+                                    <td>Desde 01/03/2025 Hasta 01/07/2025</td>
+                                    <td>Barista</td>
+                                    <td>Starbucks</td>
+                                </tr>
+                                <tr>
+                                    <td>Desde 15/07/2023 Hasta 19/11/2023</td>
+                                    <td>Operador de Transmisión</td>
+                                    <td>Correo Oficial de la República Argentina</td>
+                                </tr>
+                                <tr>
+                                    <td>Desde 18/05/2022 Hasta 18/05/2022</td>
+                                    <td>Cencista</td>
+                                    <td>Instituto Nacional de Estadísticas y Censos (INDEC)</td>
+                                </tr>
+                                <tr>
+                                    <td>Desde 15/07/2021 Hasta 14/11/2021</td>
+                                    <td>Operador de Transmisión</td>
+                                    <td>Correo Oficial de la República Argentina</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Boton lateral derecho SOLO visible en pantallas grandes -->
+            <div class="col-1 d-none d-md-block">
+            <button class="boton-carrusel btn btn-outline-secondary content-center pt-3" type="button" data-bs-target="#carousel_curriculum"data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
             </div>
 
+            <!-- Botones abajo SOLO visibles en pantallas pequeñas -->
+            <div class="d-block d-md-none text-center mt-3">
+                <button class="btn btn-outline-secondary  mb-4 content-center" data-bs-target="#carousel_curriculum" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> 
+                <button class="btn btn-outline-secondary ms-5 mb-4 content-center" data-bs-target="#carousel_curriculum" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
         </div>
     </div>
 </body>
