@@ -61,7 +61,7 @@
 }
 /* Fondo de la página */
 .body{
-    background-image: url(Fondo_Binario.png);
+    background-image: url(imagenes/Fondo_Binario.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,7 +140,7 @@
     position: absolute;
     top: 12%;
     left: 70%;
-    background-image: url(fondo_Texto_Pixel.png);
+    background-image: url(imagenes/pixel/fondo_Texto_Pixel.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     image-rendering: pixelated;
