@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <!--aca va el bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+    
+    <!-- Fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-dark pt-3">
+        <div class="container-fluid">
+
+            <!-- Titulo de la barra de navegación -->
+            <a class="navbar-brand" href="#">Porfolio Abillera</a>
+
+            <!-- Botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!--  Botón para volver al Inicio  -->
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <!--  Botón para ver la experiencia y estudios  -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="experienciaYestudios.html">Experiencia y Estudios</a>
+                    </li>
+                    <!--  Botón para ver las skills  -->
+                    <li>
+                        <a class="nav-link active" href="skills.html">Skills</a>
+                    </li>
+                    <!--  Botón para ver el curriculum  -->
+                    <li>
+                        <a class="nav-link" href="curriculum.html">Curriculum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Sección de skills -->
+    <div class="container mt-5 pt-5">
+
+        <!-- Título de la sección -->
+        <h1 class="titulo_experienciaYestudios text-center text-uppercase">skills</h1>
+        
+        </div>
+
+        <!-- Carrusel de la skills -->
+        <div class="row mt-5 ms-md-4 align-items-center">
+
+            <!-- Boton lateral izquierdo SOLO visible en pantallas grandes -->
+            <div class="col-1 col-md-1 d-none d-md-block">
+                <button class="boton-carrusel btn btn-outline-secondary content-center pt-3 mt-5" type="button" data-bs-target="#carrusel_Cartas"data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            </div>
+            <div id="carrusel_Cartas" class="carousel slide col-12 col-md-10">
+                <div class="carousel-inner">
+
+                    <!--Primer Item-->
+                    <div class="carousel-item active">
+
+                        <!-- Imagen de la carta HTML-->
+                        <div class="carta_Container">
+                            <img class="pixel_Carta" src="carta_Html.png" alt="carta_Html">
+                            <img class="logo_Html" src="logo_Html.png" alt="html_Logo">
+                            <img class="pixel_Barra_xp" src="barra_Experiencia_html.png" alt="barra_Experiencia_html">
+                            <div class="fondo_Texto_Pixel">
+                                <div class="texto_Superpuesto">
+                                    <h3>HTML5</h3>
+                                    <p>Nivel: Intermedio-Avanzado</p>
+                                    <p>Formación: CFL 408 </p>
+                                    <p>Experiencia: 1 año</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Segundo Item-->
+                    <div class="carousel-item">
+                    <!-- Imagen de la carta CSS-->
+                        <div class="carta_Container">
+                            <img class="pixel_Carta" src="carta_Css.png" alt="carta_Css">
+                            <img class="logo_Css" src="logo_Css.png" alt="css_Logo">
+                            <img class="pixel_Barra_xp" src="barra_Experiencia_css.png" alt="barra_Experiencia_css">
+                            <div class="fondo_Texto_Pixel">
+                                <div class="texto_Superpuesto">
+                                    <h3>CSS</h3>
+                                    <p>Nivel: Intermedio</p>
+                                    <p>Formación: CFL 408 </p>
+                                    <p>Experiencia: 1 año</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Tercer Item-->
+                    <div class="carousel-item">
+                    <!-- Imagen de la carta JavaScript-->
+                        <div class="carta_Container">
+                            <img class="pixel_Carta" src="carta_Js.png" alt="carta_JavaScript">
+                            <img class="logo_Js" src="logo_Js.png" alt="JavaScript_Logo">
+                            <img class="pixel_Barra_xp" src="barra_Experiencia_js.png" alt="barra_Experiencia_js">
+                            <div class="fondo_Texto_Pixel">
+                                <div class="texto_Superpuesto">
+                                    <h3>JavaScript</h3>
+                                    <p>Nivel: Intermedio</p>
+                                    <p>Formación: CFL 408 </p>
+                                    <p>Experiencia: 1 año</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Cuarto Item-->
+                    <div class="carousel-item">
+                    <!-- Imagen de la carta Python-->
+                        <div class="carta_Container">
+                            <img class="pixel_Carta" src="carta_Python.png" alt="carta_JavaScript">
+                            <img class="logo_Py" src="logo_Python.png" alt="Python_Logo">
+                            <img class="pixel_Barra_xp" src="barra_Experiencia_Python.png" alt="barra_Experiencia_Python">
+                            <div class="fondo_Texto_Pixel">
+                                <div class="texto_Superpuesto">
+                                    <h3>Python</h3>
+                                    <p>Nivel: Intermedio</p>
+                                    <p>Formación: CFL 408 </p>
+                                    <p>Experiencia: 1 año</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Boton lateral derecho SOLO visible en pantallas grandes -->
+            <div class="col-1 d-none d-md-block">
+            <button class="boton-carrusel btn btn-outline-secondary content-center pt-3 mt-5" type="button" data-bs-target="#carrusel_Cartas"data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+            <!-- Botones abajo SOLO visibles en pantallas pequeñas -->
+            <div class="d-block d-md-none text-center mt-3">
+                <!-- Boton Izquierdo-->
+                <button class="btn btn-outline-secondary  mb-4 content-center" data-bs-target="#carrusel_Cartas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> 
+                <!-- Boton Derecho-->
+                <button class="btn btn-outline-secondary ms-5 mb-4 content-center" data-bs-target="#carrusel_Cartas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </div> 
+    </div>
+</body>
+</html>
