@@ -203,7 +203,7 @@
 
 /* Carrusel de skills estilo responsive para mobile */
 
-@media (max-width: 576px){
+@media screen and (max-width: 576px) and (orientation: portrait){
 
 /* Estilo mobile del contenedor de la carta pixelada */
     .carta_Container {
@@ -244,6 +244,7 @@
         background-repeat: no-repeat;
         background-position: center;
         image-rendering: pixelated;
+        padding: 0%;
         } 
 
 /* Estilo mobile del texto superpuesto */
@@ -251,8 +252,7 @@
         position: relative;
         font-size: 18px;
         text-align: center;
-        margin-top: 5%;
-        margin-left: -25%;
+        padding-top: 3%;
     }
 
 /* Estilo mobile del logo de HTML */
@@ -287,5 +287,92 @@
         left: 32%;
         width: 180px;
         height: 180px;
+    }
+}
+
+@media screen and (max-height: 576px) and (orientation: landscape) {
+    /* Contenedor de la carta pixelada */
+    .carta_Container{
+        position:relative;
+        right: 15%;
+        width: 90vw;
+        height: auto;
+        margin: auto;
+    }
+
+    /* Estilo de la carta pixelada */
+    .pixel_Carta{
+        width: 400px;
+        height: 400px;
+        image-rendering: pixelated;
+    }
+
+    /* Estilo del fondo del texto pixelado */
+    .fondo_Texto_Pixel{
+        width: 400px;
+        height: 180px;
+        position: absolute;
+        top: 12%;
+        left: 55%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        image-rendering: pixelated;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+    }
+    /* Estilo del texto superpuesto */
+    .texto_Superpuesto {
+        position: relative;
+        padding-top: 4%;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+    /* Estilo de la barra de XP pixelada */
+    .pixel_Barra_xp{
+        position:absolute;
+        left: 55%;
+        top: 73%;
+        width: 450px;
+        height: 65px;
+        image-rendering: pixelated;
+    }
+
+    /* Estilo del logo de HTML */
+    .logo_Html{
+        position:absolute;
+        top: 23%;
+        left: 20.2%;
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Estilo del logo de CSS */
+    .logo_Css{
+        position:absolute;
+        top: 20%;
+        left: 17%;
+        width: 190px;
+        height: 180px;
+    }
+
+    /* Estilo del logo de JavaScript */
+    .logo_Js{
+        position:absolute;
+        top: 23%;
+        left: 20.2%;
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Estilo del logo de Python */
+    .logo_Py{
+        position:absolute;
+        top: 20%;
+        left: 19%;
+        width: 170px;
+        height: 170px;
     }
 }
